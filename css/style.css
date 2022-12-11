@@ -263,8 +263,8 @@ body {
   padding: 30px 10px;
 }
 .modal .modal__content {
-  background-color: #fff;
-  color: #2B2B2B;
+  background-color: #2B2B2B;
+  color: #91B7BC;
   max-width: 800px;
   padding: 30px;
   position: relative;
@@ -286,7 +286,7 @@ body {
   content: "";
   width: 28px;
   height: 2px;
-  background-color: rgba(0, 0, 0, 0.824);
+  background-color: white;
   display: block;
   top: 14px;
   right: 1px;
