@@ -59,12 +59,9 @@ window.addEventListener('click', (e) => {
 	})
 })
 
-// window.addEventListener('click', () => {
-// 	modal.forEach(item => {
-// 		if(item.classList.contains('modal__show')) {
-// 			item.classList.remove('modal__show')
-// 		}
-// 	})
-// })
+
+
+
+
 
 
