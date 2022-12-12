@@ -207,10 +207,11 @@ body {
 
 		.subsetion__inner {
 			color: $cGray;
-			width: 49%;
+			width: 44%;
 			display: inline-flex;
 			padding: 12px 0;
-			padding-right: 3px;
+			margin-right: 40px;
+			justify-content: space-between;
 
 			h4 {
 				font-weight: 400;

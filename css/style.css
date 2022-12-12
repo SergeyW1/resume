@@ -211,12 +211,15 @@ body {
 }
 .content__about .content__skills .subsetion__inner {
   color: #91B7BC;
-  width: 49%;
+  width: 44%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 12px 0;
-  padding-right: 3px;
+  margin-right: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .content__about .content__skills .subsetion__inner h4 {
   font-weight: 400;
