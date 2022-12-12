@@ -210,14 +210,14 @@ body {
 			width: 49%;
 			display: inline-flex;
 			padding: 12px 0;
-			justify-content: space-between;
-			padding-right: 20px;
+			padding-right: 3px;
 
 			h4 {
 				font-weight: 400;
 			}
 
 			.subsetion__level {
+				padding-left: 15px;
 				.infographic__item {
 					display: inline-block;
 					height: 7px;

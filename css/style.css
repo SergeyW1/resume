@@ -216,13 +216,13 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 12px 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-right: 20px;
+  padding-right: 3px;
 }
 .content__about .content__skills .subsetion__inner h4 {
   font-weight: 400;
+}
+.content__about .content__skills .subsetion__inner .subsetion__level {
+  padding-left: 15px;
 }
 .content__about .content__skills .subsetion__inner .subsetion__level .infographic__item {
   display: inline-block;
