@@ -227,8 +227,8 @@ body {
 }
 .content__about .content__skills .subsetion__inner .subsetion__level .infographic__item {
   display: inline-block;
-  height: 8px;
-  width: 25px;
+  height: 7px;
+  width: 20px;
   border: 2px solid #FFC667;
   border-radius: 5px;
 }
