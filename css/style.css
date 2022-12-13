@@ -338,9 +338,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   color: #9876AA;
 }
 .subsetion .subsetion__header span {
@@ -363,9 +363,11 @@ body {
   -webkit-box-shadow: inset 200px 0 0 0 #9876AA;
           box-shadow: inset 200px 0 0 0 #9876AA;
 }
+.subsetion .subsetion__header a {
+  margin: 0px 13px;
+}
 .subsetion .subsetion__header .github-svg {
   height: 20px;
-  margin: 0px 0px -3px 7px;
   fill: green;
 }
 .subsetion .subsetion__header .github-svg:hover {

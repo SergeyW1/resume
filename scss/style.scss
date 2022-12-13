@@ -330,7 +330,7 @@ body {
 	.subsetion__header {
 		font-size: 20px;
 		display: flex;
-		align-items: baseline;
+		align-items: flex-start;
 		color: #9876AA;
 
 		span {
@@ -351,11 +351,16 @@ body {
 				;
 			}
 		}
-		.github-svg{
+
+		a {
+			margin: 0px 13px;
+		}
+
+		.github-svg {
 			height: 20px;
-			margin: 0px 0px -3px 7px;
 			fill: green;
-			&:hover{
+
+			&:hover {
 				fill: rgb(1, 162, 1);
 			}
 		}
