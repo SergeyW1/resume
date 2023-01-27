@@ -170,6 +170,7 @@ body {
   padding-left: 7px;
 }
 .content__about .content__logo {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,6 +180,28 @@ body {
   gap: 10px;
   margin-top: 20px;
   width: 100%;
+}
+.content__about .content__logo .download-resume {
+  height: 12px;
+  position: absolute;
+  left: 0px;
+  top: -3px;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #91B7BC;
+  width: 145px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.content__about .content__logo .download-resume svg {
+  height: 30px;
+  fill: #91B7BC;
 }
 .content__about .content__logo .icon__svg {
   fill: #056005;
@@ -391,6 +414,14 @@ body {
 }
 
 @media (max-width: 784px) {
+  .content__about .content__logo .download-resume {
+    font-size: 2vw;
+    width: 166px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 4px;
+  }
   .content__about .content__general-info h1 {
     font-size: 5vw;
   }
@@ -430,6 +461,13 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .content__about .content__logo .download-resume {
+    top: -11px;
+  }
+  .content__about .content__logo .download-resume svg {
+    height: 15px;
+    width: 15px;
+  }
   .icon__about svg {
     height: 15px;
     width: 15px;

@@ -99,7 +99,6 @@ body {
 			list-style-type: none;
 			color: $cOrange;
 			text-align: start;
-			// border-bottom: 1px solid #0000003d;
 
 			&:hover {
 				color: #c0964e;
@@ -167,11 +166,30 @@ body {
 	}
 
 	.content__logo {
+		position: relative;
 		display: flex;
 		justify-content: center;
 		gap: 10px;
 		margin-top: 20px;
 		width: 100%;
+
+		.download-resume {
+			height: 12px;
+			position: absolute;
+			left: 0px;
+			top: -3px;
+			font-size: 13px;
+			display: flex;
+			align-items: center;
+			color: #91B7BC;
+			width: 145px;
+			justify-content: space-between;
+
+			svg {
+				height: 30px;
+				fill: $cGray;
+			}
+		}
 
 		.icon__svg {
 			fill: #056005;
@@ -381,8 +399,27 @@ body {
 	line-height: 30px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 784px) {
 	.content__about {
+		.content__logo{
+			.download-resume{
+				font-size: 2vw;
+				width: 166px;
+				justify-content: flex-start;
+				gap: 4px;
+			}
+		}
 		.content__general-info {
 			h1 {
 				font-size: 5vw;
@@ -418,6 +455,7 @@ body {
 			}
 		}
 	}
+	
 
 	.content__menu {
 		margin-top: 0;
@@ -435,6 +473,18 @@ body {
 }
 
 @media (max-width: 600px) {
+
+	.content__about {
+		.content__logo{
+			.download-resume{
+				top: -11px;
+				svg {
+					height: 15px;
+					width: 15px;
+				}
+			}
+		}
+	}
 	.icon__about {
 		svg {
 			height: 15px;
