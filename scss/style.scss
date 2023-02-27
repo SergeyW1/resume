@@ -115,13 +115,6 @@ body {
 	}
 }
 
-
-
-// 	}
-
-
-// }
-
 .content__about {
 	display: flex;
 	flex-direction: row;
@@ -280,7 +273,7 @@ body {
 		background-color: #2B2B2B;
 		color: $cGray;
 		max-width: 800px;
-		padding: 30px;
+		padding: 21px;
 		position: relative;
 
 		.modal__close {
@@ -339,17 +332,21 @@ body {
 }
 
 
-.subsetion {
+.subseсtion {
 	display: flex;
 	margin-bottom: 50px;
 	flex-direction: column;
 	border-bottom: 1px solid #7e7d7d26;
 
-	.subsetion__header {
-		font-size: 20px;
+	.subseсtion__header {
+		font-size: 17px;
 		display: flex;
-		align-items: flex-start;
+		align-items: center;
 		color: #9876AA;
+		background: #1e1e1e;
+		height: 50px;
+		padding: 0 9px;
+		border-radius: 4px;
 
 		span {
 			margin: 0 5px;
@@ -389,37 +386,34 @@ body {
 	font-size: 13px;
 	font-weight: 200;
 	color: $cSandy;
-	padding: 10px 0;
+	padding: 10px 5px;
 }
 
 .subsection__content {
 	font-size: 20px;
 	display: flex;
-	padding-left: 20px;
+	margin-left: 25px;
 	line-height: 30px;
+
+	h3 {
+		max-width: 80%;
+		color: $cOrange;
+	}
+
 }
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 784px) {
 	.content__about {
-		.content__logo{
-			.download-resume{
+		.content__logo {
+			.download-resume {
 				font-size: 2vw;
 				width: 166px;
 				justify-content: flex-start;
 				gap: 4px;
 			}
 		}
+
 		.content__general-info {
 			h1 {
 				font-size: 5vw;
@@ -455,7 +449,7 @@ body {
 			}
 		}
 	}
-	
+
 
 	.content__menu {
 		margin-top: 0;
@@ -475,9 +469,10 @@ body {
 @media (max-width: 600px) {
 
 	.content__about {
-		.content__logo{
-			.download-resume{
+		.content__logo {
+			.download-resume {
 				top: -11px;
+
 				svg {
 					height: 15px;
 					width: 15px;
@@ -485,6 +480,7 @@ body {
 			}
 		}
 	}
+
 	.icon__about {
 		svg {
 			height: 15px;

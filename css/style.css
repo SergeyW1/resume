@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -293,7 +294,7 @@ body {
   background-color: #2B2B2B;
   color: #91B7BC;
   max-width: 800px;
-  padding: 30px;
+  padding: 21px;
   position: relative;
 }
 .modal .modal__content .modal__close {
@@ -345,7 +346,7 @@ body {
   visibility: visible;
 }
 
-.subsetion {
+.subseсtion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,20 +357,24 @@ body {
           flex-direction: column;
   border-bottom: 1px solid rgba(126, 125, 125, 0.1490196078);
 }
-.subsetion .subsetion__header {
-  font-size: 20px;
+.subseсtion .subseсtion__header {
+  font-size: 17px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #9876AA;
+  background: #1e1e1e;
+  height: 50px;
+  padding: 0 9px;
+  border-radius: 4px;
 }
-.subsetion .subsetion__header span {
+.subseсtion .subseсtion__header span {
   margin: 0 5px;
 }
-.subsetion .subsetion__header .link__film-search {
+.subseсtion .subseсtion__header .link__film-search {
   -webkit-box-shadow: inset 0 0 0 0 #9876AA;
           box-shadow: inset 0 0 0 0 #9876AA;
   color: #9876AA;
@@ -381,19 +386,19 @@ body {
   transition: color 0.6s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
   text-decoration: none;
 }
-.subsetion .subsetion__header .link__film-search:hover {
+.subseсtion .subseсtion__header .link__film-search:hover {
   color: #fff;
   -webkit-box-shadow: inset 200px 0 0 0 #9876AA;
           box-shadow: inset 200px 0 0 0 #9876AA;
 }
-.subsetion .subsetion__header a {
+.subseсtion .subseсtion__header a {
   margin: 0px 13px;
 }
-.subsetion .subsetion__header .github-svg {
+.subseсtion .subseсtion__header .github-svg {
   height: 20px;
   fill: green;
 }
-.subsetion .subsetion__header .github-svg:hover {
+.subseсtion .subseсtion__header .github-svg:hover {
   fill: rgb(1, 162, 1);
 }
 
@@ -401,7 +406,7 @@ body {
   font-size: 13px;
   font-weight: 200;
   color: #FFC667;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 
 .subsection__content {
@@ -409,8 +414,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 20px;
+  margin-left: 25px;
   line-height: 30px;
+}
+.subsection__content h3 {
+  max-width: 80%;
+  color: #CC612D;
 }
 
 @media (max-width: 784px) {
